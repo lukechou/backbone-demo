@@ -1,0 +1,55 @@
+Backbone单页面应用
+目录结构：
+<ol>
+	<li>html
+		<ul>
+			<li>index.html</li>
+			<li>partial
+				<ul>
+					<li>home.html</li>
+					<li>login.html</li>
+					<li>pic.html</li>
+					<li>register.html</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>js
+		<ul>
+			<li>filter
+				<ul>
+					<li>urlFilter.js</li>
+				</ul>
+			</li>
+			<li>lib
+				<ul>
+					<li>backbone.js</li>
+					<li>jQuery-1.11.0.min.js</li>
+					<li>jquery.js</li>
+					<li>underscore.js</li>
+				</ul>
+			</li>
+			<li>main
+				<ul>
+					<li>controller.js</li>
+				</ul>
+			</li>
+			<li>model
+				<ul>
+					<li>user.js</li>
+				</ul>
+			</li>
+			<li>routes
+				<ul>
+					<li>routes.js</li>
+				</ul>
+			</li>
+			<li>view
+				<ul>
+					<li>view.js</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ol>
+model,view分离。使用routes路由控制整个应用的跳转。
